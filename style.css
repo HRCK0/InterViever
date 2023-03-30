@@ -9,6 +9,11 @@ input[type="text"] {
     margin-bottom: 10px;
   }
   
+  #wholesite {
+    padding-left: 3%;
+    padding-right: 3%;  
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -63,19 +68,22 @@ input[type="text"] {
   }
   
   ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
     list-style: none;
-    text-align: center;
-    margin: 0 auto;
-    width: 40%;
-    margin-bottom: 20px;
+    padding: 0;
   }
   
   li {
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 10px;
-    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #008CBA;
   }
+  
+  
   
   h3 {
     margin-bottom: 5px;
