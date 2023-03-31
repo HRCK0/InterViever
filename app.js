@@ -1,5 +1,6 @@
 // Get the featured job list element
 const featuredJobsList = document.querySelector('#featuredJobs');
+import data from './backend/databaseRead';
 
 {/* <div  class="job">
     <div class="company-logo">
@@ -20,8 +21,10 @@ const featuredJobsList = document.querySelector('#featuredJobs');
 
 // Define the function to populate the featured job list
 function populateFeaturedJobs() {
+
+
   // Fetch the featured jobs data from the mock JSON file
-    fetch('sampleJobs.json')
+    fetch(data)
       .then(response => {
         if (!response.ok) {
             throw new Error(response.error)

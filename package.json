@@ -1,0 +1,23 @@
+{
+  "name": "interviever",
+  "version": "1.0.0",
+  "description": "**iNTERvIEVER**",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRCK0/InterViever.git"
+  },
+  "author": "Vanya Prokic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRCK0/InterViever/issues"
+  },
+  "homepage": "https://github.com/HRCK0/InterViever#readme",
+  "dependencies": {
+    "pg": "^8.10.0",
+    "socket.io": "^4.6.1"
+  }
+}
