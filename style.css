@@ -99,15 +99,30 @@ input[type="text"] {
   }
   
   
-  h3 {
+  .job-title {
     margin-bottom: 5px;
   }
   
   p {
     margin-bottom: 10px;
   }
+
+  .job-description {
+    padding-bottom: 5px;
+  }
   
-  a {
+  /* a {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border: 1px solid #008CBA;
+    border-radius: 3px;
+    color: #008CBA;
+    text-align: center;
+    text-decoration: none;
+  } */
+
+  .apply-button {
     display: block;
     margin: 10px auto;
     padding: 5px 10px;
@@ -135,6 +150,10 @@ input[type="text"] {
   nav a {
     color: #fff;
     text-decoration: none;
+  }
+
+  .logo-image {
+    width: 110px;
   }
   
   .logo a {

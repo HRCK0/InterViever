@@ -1,0 +1,76 @@
+{
+    "jobs": [
+        {
+            "title": "Software Developer",
+            "company": "Company A",
+            "location": "New York, NY",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor tincidunt est, eu consequat ante vestibulum non. Duis lacinia eros justo, in mattis leo tincidunt vel. In consectetur elit at elit finibus, vel bibendum quam bibendum. Donec ullamcorper risus id aliquam tincidunt. Proin malesuada dolor ac orci bibendum, et maximus odio fringilla. ",
+            "logo": "https://example.com/company-a-logo.png",
+            "apply_link": "https://example.com/apply-now"
+        },
+        {
+            "title": "Web Developer",
+            "company": "Company B",
+            "location": "San Francisco, CA",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor tincidunt est, eu consequat ante vestibulum non. Duis lacinia eros justo, in mattis leo tincidunt vel. In consectetur elit at elit finibus, vel bibendum quam bibendum. Donec ullamcorper risus id aliquam tincidunt. Proin malesuada dolor ac orci bibendum, et maximus odio fringilla. ",
+            "logo": "https://example.com/company-b-logo.png",
+            "apply_link": "https://example.com/apply-now"
+        },
+        {
+            "title": "Mobile App Developer",
+            "company": "Company C",
+            "location": "Chicago, IL",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor tincidunt est, eu consequat ante vestibulum non. Duis lacinia eros justo, in mattis leo tincidunt vel. In consectetur elit at elit finibus, vel bibendum quam bibendum. Donec ullamcorper risus id aliquam tincidunt. Proin malesuada dolor ac orci bibendum, et maximus odio fringilla. ",
+            "logo": "https://example.com/company-c-logo.png",
+            "apply_link": "https://example.com/apply-now"
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Acme Inc.",
+            "location": "New York, NY",
+            "description": "We are seeking an experienced software engineer to join our growing team. The ideal candidate will have a strong background in software development, including experience with Java, C++, and Python.",
+            "logo": "https://www.example.com/acme.png",
+            "applyLink": "https://www.example.com/apply?job=1234"
+        },
+        {
+            "title": "Full Stack Developer",
+            "company": "TechCorp",
+            "location": "San Francisco, CA",
+            "description": "We are looking for a full stack developer to join our team. The ideal candidate will have experience with Node.js, React, and MongoDB.",
+            "logo": "https://www.example.com/techcorp.png",
+            "applyLink": "https://www.example.com/apply?job=5678"
+        },
+        {
+            "title": "UI/UX Designer",
+            "company": "Design Co.",
+            "location": "Chicago, IL",
+            "description": "We are seeking a talented UI/UX designer to join our team. The ideal candidate will have experience with Sketch, Figma, and Adobe Creative Suite.",
+            "logo": "https://www.example.com/designco.png",
+            "applyLink": "https://www.example.com/apply?job=9012"
+        },
+        {
+            "title": "Data Analyst",
+            "company": "Analytics Inc.",
+            "location": "Boston, MA",
+            "description": "We are looking for a data analyst to join our team. The ideal candidate will have experience with SQL, R, and Python.",
+            "logo": "https://www.example.com/analyticsinc.png",
+            "applyLink": "https://www.example.com/apply?job=3456"
+        },
+        {
+            "title": "Backend Developer",
+            "company": "Backend Co.",
+            "location": "Seattle, WA",
+            "description": "We are seeking a skilled backend developer to join our team. The ideal candidate will have experience with Ruby on Rails and PostgreSQL.",
+            "logo": "https://www.example.com/backendco.png",
+            "applyLink": "https://www.example.com/apply?job=7890"
+        },
+        {
+            "title": "DevOps Engineer",
+            "company": "OpsWorks",
+            "location": "Austin, TX",
+            "description": "We are looking for a DevOps engineer to join our team. The ideal candidate will have experience with AWS, Docker, and Kubernetes.",
+            "logo": "https://www.example.com/opsworks.png",
+            "applyLink": "https://www.example.com/apply?job=1234"
+        }
+    ]
+}
