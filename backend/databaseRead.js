@@ -16,6 +16,4 @@ client.query('SELECT * FROM jobs', (err, res) => {
     client.end();
 });
 
-module.exports = (
-    data
-)
+module.exports = data

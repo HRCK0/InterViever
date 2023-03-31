@@ -1,6 +1,6 @@
 // Get the featured job list element
 const featuredJobsList = document.querySelector('#featuredJobs');
-import data from './backend/databaseRead';
+import {data} from '../backend/databaseRead';
 
 {/* <div  class="job">
     <div class="company-logo">

@@ -8,8 +8,6 @@ const client = new Client ({
     database: 'jobs'
 });
 
-module.exports = (
-    client
-)
+module.exports = client
 
 
