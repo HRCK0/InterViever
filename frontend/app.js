@@ -1,6 +1,25 @@
 // Get the featured job list element
 const featuredJobsList = document.querySelector('#featuredJobs');
-import {data} from '../backend/databaseRead';
+
+
+const searchButton = document.getElementById('searchButton');
+const locationInput = document.getElementById('location');
+
+const baseUrl = 'http://localhost:8383/info';
+
+searchButton.addEventListener('click', getResults);
+
+async function getResults(e){
+    e.preventDefault();
+
+    const res = await fetch(baseUrl, {
+        medthod: 'GET'
+    });
+    console.log(res);
+
+    const data = await res.json();
+    locationInput.value = data.protest
+}
 
 {/* <div  class="job">
     <div class="company-logo">
@@ -95,9 +114,9 @@ function populateFeaturedJobs() {
     })
 }
 
-document.getElementById('searchButton').onclick = function(){
-    populateFeaturedJobs();
-}
+// document.getElementById('searchButton').onclick = function(){
+//     populateFeaturedJobs();
+// }
 
 //   fetch('sampleJobs.json')
 //     .then(response => response.json())
