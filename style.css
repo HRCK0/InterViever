@@ -1,0 +1,165 @@
+/* W3Schools helped with ideas and some code */
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  #wholesite {
+    padding-left: 3%;
+    padding-right: 3%;  
+    padding-bottom: 3%;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    margin: 20px 100;
+    text-align: center;
+  }
+
+  #keywords {
+    margin-right: 5%;
+    margin-left: 1%;
+  }
+
+  #location {
+    margin-right: 5%;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #008CBA;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Featured jobs styles */
+  h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .featured-jobs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job {
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #008CBA;
+  }
+  
+  .company-logo{
+    float: right;
+  }
+  
+  
+  h3 {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border: 1px solid #008CBA;
+    border-radius: 3px;
+    color: #008CBA;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #008CBA;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+  }
+  
+  .nav-links a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
