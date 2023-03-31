@@ -37,7 +37,7 @@ input[type="text"] {
   
   /* Form styles */
   form {
-    margin: 20px 0;
+    margin: 20px 100;
     text-align: center;
   }
   
@@ -68,7 +68,7 @@ input[type="text"] {
     margin: 20px 0;
   }
   
-  ul {
+  .featured-jobs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -76,7 +76,7 @@ input[type="text"] {
     padding: 0;
   }
   
-  li {
+  .job {
     background-color: #f1f1f1;
     padding: 20px;
     border-radius: 10px;
@@ -84,6 +84,9 @@ input[type="text"] {
     border: 1px solid #008CBA;
   }
   
+  .company-logo{
+    float: right;
+  }
   
   
   h3 {
