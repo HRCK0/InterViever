@@ -5,14 +5,15 @@ const featuredJobsList = document.querySelector('#featuredJobs');
 const searchButton = document.getElementById('searchButton');
 const locationInput = document.getElementById('location');
 
-const baseUrl = 'http://localhost:8383/info';
+const baseUrl = 'http://localhost:8383/';
 
 searchButton.addEventListener('click', getResults);
 
 async function getResults(e){
     e.preventDefault();
 
-    const res = await fetch(baseUrl, {
+    //Kako da pokupim url is browsera a ne da ja pravim varijablu?
+    const res = await fetch(baseUrl + 'james?key=hello&store=mama', {
         medthod: 'GET'
     });
     console.log(res);

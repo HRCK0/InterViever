@@ -4,8 +4,12 @@
 
 app.use(express.static('frontend'));
 
-app.get('/info', (req, res) => {
+app.get('/:dynamic', (req, res) => {
+    const {dynamic} = req.params;
+    const {key} = req.query;
+    const {store} = req.query;
+    console.log(dynamic, key, store);
     res.status(200).json({protest: 'vucicu pederu'})
 });
 
- app.listen(port, () => console.log(`Server has started on port: ${port}`));
+app.listen(port, () => console.log(`Server has started on port: ${port}`));
