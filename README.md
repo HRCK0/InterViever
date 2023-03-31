@@ -1,9 +1,10 @@
 **iNTERvIEVER**
-```
+`
 Team: Vanya Prokic 300057417
 
 I'll be building an app that will gather interview opportunities from many other websites into one place, and allow users to browse through them with ease. With a press of a button, users will be redirected to the source website of the job posting and be allowed to apply for the job. **Welcome to iNTERvIEVER!**
-```
+`
+
 **Color Decisions**
 ```
 I decided to use the blue color as the base color pallete for my website. I'm keeping the colors simple - blue and white.
