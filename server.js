@@ -6,6 +6,9 @@ app.use(express.static('frontend'));
 
 app.get('/:dynamic', (req, res) => {
     const {dynamic} = req.params;
+    // const {location, keywords} = req.query;
+    console.log(dynamic);
+    // console.log(location, keywords);
     res.status(200).json({protest: 'vucicu pederu'})
 });
 

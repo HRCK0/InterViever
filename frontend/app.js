@@ -4,6 +4,7 @@ const featuredJobsList = document.querySelector('#featuredJobs');
 
 const searchButton = document.getElementById('searchButton');
 const locationInput = document.getElementById('location');
+const keywordsInput = document.getElementById('keywords');
 
 const baseUrl = 'http://localhost:8383/';
 
@@ -21,13 +22,16 @@ async function getResults(e){
     // const data = await res.json();
     // locationInput.value = data.protest
 
-    const res = await fetch(baseUrl + 'james', {
+    console.log('Serverside: ', keywordsInput.value, locationInput.value);
+
+    const res = await fetch(baseUrl + 'james', { // + `?keywords=${keywordsInput.value}&location=${locationInput.value}`
         method: 'GET'
     });
+    
     console.log(res);
 
     const data = await res.json();
-    locationInput.value = data.protest
+    locationInput.value = data.protest;
 }
 
 {/* <div  class="job">
