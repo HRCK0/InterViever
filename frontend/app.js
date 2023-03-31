@@ -13,8 +13,16 @@ async function getResults(e){
     e.preventDefault();
 
     //Kako da pokupim url is browsera a ne da ja pravim varijablu?
-    const res = await fetch(baseUrl + 'james?key=hello&store=mama', {
-        medthod: 'GET'
+    // const res = await fetch(baseUrl + 'james?key=hello&store=mama', {
+    //     medthod: 'GET'
+    // });
+    // console.log(res);
+
+    // const data = await res.json();
+    // locationInput.value = data.protest
+
+    const res = await fetch(baseUrl + 'james', {
+        method: 'GET'
     });
     console.log(res);
 
