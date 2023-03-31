@@ -1,7 +1,6 @@
 // Get the featured job list element
 const featuredJobsList = document.querySelector('#featuredJobs');
 
-
 const searchButton = document.getElementById('searchButton');
 const locationInput = document.getElementById('location');
 const keywordsInput = document.getElementById('keywords');
@@ -24,7 +23,7 @@ async function getResults(e){
 
     console.log('Serverside: ', keywordsInput.value, locationInput.value);
 
-    const res = await fetch(baseUrl + 'james', { // + `?keywords=${keywordsInput.value}&location=${locationInput.value}`
+    const res = await fetch(baseUrl, { // + `?keywords=${keywordsInput.value}&location=${locationInput.value}`
         method: 'GET'
     });
     

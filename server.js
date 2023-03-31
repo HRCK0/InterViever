@@ -9,7 +9,7 @@ app.get('/:dynamic', (req, res) => {
     // const {location, keywords} = req.query;
     console.log(dynamic);
     // console.log(location, keywords);
-    res.status(200).json({protest: 'vucicu pederu'})
+    res.status(200).json({protest: 'vucicu pederu'});
 });
 
 app.listen(port, () => console.log(`Server has started on port: ${port}`));
