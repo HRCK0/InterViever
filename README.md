@@ -125,7 +125,7 @@ Select everything except for the `Stack Builder`. After that point, just follow 
 -
 ![Postgres Website](https://i.imgur.com/6QNbvwv.png)
 
-That's it - everything is ready to go! The rest of the instructions on how to run the app will be displayed and shown in the Pharo project itself.
+That's it - everything is ready to go! The rest of the instructions on how to run the app will be displayed and shown in the Pharo project itself (just make sure to give it some time to install all the dependencies/frameworks)
 -
 I took a bit of time to make the project install all the dependencies and frameworks so that it is ready to go as soon as one installs and logs into Postgres.
 
