@@ -1,11 +1,12 @@
 **iNTERvIEVER**
-
+-
 Team: Vanya Prokic 300057417
 
 I'll be building an app that will gather interview opportunities from many other websites into one place, and allow users to browse through them with ease. With a press of a button, users will be redirected to the source website of the job posting and be allowed to apply for the job. **Welcome to iNTERvIEVER!**
 
 ---
 **Color Decisions**
+-
 
 I decided to use the blue color as the base color pallete for my website. I'm keeping the colors simple - blue and white.
 
@@ -15,6 +16,7 @@ All in all, I've kept a very simple color choices, and if I were to upgrade them
 
 ---
 **Design Decisions**
+-
 
 Navigation Bar
 
@@ -40,13 +42,13 @@ The apply button will take users to that company's page for that specific job ap
 
 ---
 **Summary**
-
+-
 The design idea and color choices are very simple, as I wanted to put an accent on readability, functionality and an ease of use. The company logos are shown for both easier recognition by the users, as well as to enrich the website with images.
 
 ---
 ---
 **Technologies Used**
-
+-
 I've used `Pharo Smalltalk` for the most of my work. It is a pure OOP language that's hasn't seen much light of the day, but it's power and ease of use make it a very desireable tool.
 
 It's very easy to install and setup, but more on that in the next section. 
@@ -69,7 +71,7 @@ Lastly, I used `Postgres Database` for my, well database. I had the most experie
 
 ---
 **INSTALLATION & SETUP**
-
+-
 Head over to the https://pharo.org/ to Download the Pharo language. 
 NOTE: Smalltalk is a unique language, and it runs in a Virtual Machine, which could make the setup a bit unusual but it's not hard at all.
 
@@ -96,9 +98,9 @@ Extract the Zip in the same directory as the previous Zip (everything should be 
 **If on windows:** Drag the `.image` file on top of the `Pharo.exe` file and Pharo will automatically open
 -
 
-**If on MacOS/Linux:** Double click on the `.image` file and when prompted to open another file, just select the same `.image` file and open it
+**If on MacOS/Linux:** Open the Terminal and navigate into the same folder where the files are stored, and run the follwoing command: `./Pharo-ui image_name.image`
 -
-????????????????????????????????????????
+
 
 ---
 At this point, project in Pharo will automatically install all the needed dependencies and frameworks. The only thing left to install after Pharo is `Postgres`.
@@ -123,3 +125,21 @@ Select everything except for the `Stack Builder`. After that point, just follow 
 -
 ![Postgres Website](https://i.imgur.com/6QNbvwv.png)
 
+That's it - everything is ready to go! The rest of the instructions on how to run the app will be displayed and shown in the Pharo project itself.
+-
+I took a bit of time to make the project install all the dependencies and frameworks so that it is ready to go as soon as one installs and logs into Postgres.
+
+---
+**Features**
+-
+
+Searching for keywoard will search all the text on the ads except for the location.
+
+Location will search for jobs that are located at the specified location.
+
+![Postgres Website](https://i.imgur.com/6QNbvwv.png)
+![Postgres Website](https://i.imgur.com/6QNbvwv.png)
+![Postgres Website](https://i.imgur.com/6QNbvwv.png)
+![Postgres Website](https://i.imgur.com/6QNbvwv.png)
+![Postgres Website](https://i.imgur.com/6QNbvwv.png)
+![Postgres Website](https://i.imgur.com/6QNbvwv.png)
