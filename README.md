@@ -72,6 +72,22 @@ Lastly, I used `Postgres Database` for my, well database. I had the most experie
 ---
 **INSTALLATION & SETUP**
 -
+
+**1. A Simple Unzip**
+-
+
+1. **Download the zip file from the following link:** https://disk.yandex.com/d/1dN3Hb357uJVlw 
+
+2. Unzip the contents of the Zip.
+3. Open the terminal and reach the destination folder of the project
+4. Run the `./start.sh` command
+5. Follow the instructions below on how to install Postgres
+
+If that does not work, try the second way below
+
+
+**2. Downloading the Files Manually**
+-
 Head over to the https://pharo.org/ to Download the Pharo language. 
 NOTE: Smalltalk is a unique language, and it runs in a Virtual Machine, which could make the setup a bit unusual but it's not hard at all.
 
@@ -90,7 +106,7 @@ Unzip the directory at a desired location
 
 Now download the Pharo Image Zip that you can find via this link:
 -
-https://drive.google.com/
+https://disk.yandex.com/d/1dN3Hb357uJVlw 
 
 Extract the Zip in the same directory as the previous Zip (everything should be in one folder with no sub folders)
 -
@@ -137,9 +153,17 @@ Searching for keywoard will search all the text on the ads except for the locati
 
 Location will search for jobs that are located at the specified location.
 
-![Postgres Website](https://i.imgur.com/6QNbvwv.png)
-![Postgres Website](https://i.imgur.com/6QNbvwv.png)
-![Postgres Website](https://i.imgur.com/6QNbvwv.png)
-![Postgres Website](https://i.imgur.com/6QNbvwv.png)
-![Postgres Website](https://i.imgur.com/6QNbvwv.png)
-![Postgres Website](https://i.imgur.com/6QNbvwv.png)
+![Postgres Website](https://media.discordapp.net/attachments/541682053637210112/1091528988272365589/Screen_Shot_2023-04-01_at_1.50.13_AM.png?width=1094&height=589)
+![Postgres Website](https://media.discordapp.net/attachments/541682053637210112/1091528988054278194/Screen_Shot_2023-04-01_at_2.01.16_AM.png?width=1092&height=589)
+![Postgres Website](https://media.discordapp.net/attachments/541682053637210112/1091528987794223124/Screen_Shot_2023-04-01_at_2.01.42_AM.png?width=1090&height=589)
+![Postgres Website](https://media.discordapp.net/attachments/541682053637210112/1091528987555139724/Screen_Shot_2023-04-01_at_2.02.23_AM.png?width=1088&height=589)
+![Postgres Website](https://media.discordapp.net/attachments/541682053637210112/1091528987303497809/Screen_Shot_2023-04-01_at_2.12.43_AM.png?width=1021&height=589)
+
+**Sample code**
+
+This is the home page of the webapp (this is the HTML structure, writen in Smalltalk, which generates HTML tags)
+
+NOTE: the `{ #category : #initialization }` part is something specific to Smalltalk and is not actually part of the code. Smalltalk categorizes methods of a class.
+![Postgres Website](https://i.imgur.com/9iyzC02.png)
+
+The rest of the of the code will be in the email as an attached zip file. In order to avoid doing unecessary search for the code in Pharo, below are the files that belong to the project.
